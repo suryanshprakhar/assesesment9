@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+.contaniner{
+    background-image: url(shara-desert.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: end;
+    color: white;
+    padding: 20px;
+}
+.material-icons{
+    margin-right: 10vw;
+    font-size: 1.2rem;
+}
+.about{
+    margin-right: 4vw;
+    font-size: 1.2rem;
+}
+.region{
+    margin-right: 4vw;
+    font-size: 1.2rem;
+}
+.home{
+    margin-right: 4vw;
+    font-size: 1.2rem;
+}
+.flex{
+    display: flex;
+}
+.left-side{
+    height: 96vh;
+}
+.right-side{
+    /* border: 2px solid black; */
+    width: 100vw;
+}
+.boxes{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 196px;
+    height: 224px;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    transition: all 0.1s linear;
+}
+.boxes:hover{
+    transform: translateY(-10px);
+}
+.box1{
+    position: absolute;
+    left: 52vw;
+    top: 12vh;
+    padding: 10px;
+    background-image: url(pic-1.png);
+    background-size: 217px 244px;
+    background-repeat: no-repeat;
+
+}
+.western{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.western-text{
+    margin-top: 4vh;
+}
+.box2{
+    position: absolute;
+    left: 77vw;
+    top: 12vh;
+    background-image: url(pic-2.png);
+    background-size: 217px 244px;
+    background-repeat: no-repeat;
+}
+.ai{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.box3{
+    position: absolute;
+    left: 52vw;
+    top: 57vh;
+    background-image: url(pic-3.png);
+    background-size: 217px 244px;
+    background-repeat: no-repeat;
+}
+.box4{
+    position: absolute;
+    left: 77vw;
+    top: 57vh;
+    background-image: url(pic-4.png);
+    background-size: 217px 244px;
+    background-repeat: no-repeat;
+}
+.sahara{
+    font-size: 5rem;
+    margin-top: 30vh;
+    margin-left: 5vw;
+    color: white;
+}
+.text{
+    margin-left: 5vw;
+    margin-top: 2vh;
+    color: white;
+}
+.explore-btn{
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 18px;
+    background-color: white;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+@media (max-width: 1341px){
+    .left-side{
+        width: 50vw;
+    }
+    
+}
+@media(max-width:985px){
+    .contaniner{height: 200vh;}
+    .left-side{width: 100vw;}
+    .box1{left: 15vw; top:100vh;}
+    .box2{left: 50vw; top: 100vh;}
+    .box3{left: 15vw; top:140vh;}
+    .box4{left: 50vw; top: 140vh;}
+}
+@media(max-width:623px){
+    .contaniner{height: 300vh;}
+    .box1{left: 5vw;top: 100vh;}
+    .box2{left: 5vw;top: 140vh;}
+    .box3{left: 5vw;top: 180vh;}
+    .box4{left: 5vw;top: 220vh;}
+    
+}
