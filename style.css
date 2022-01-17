@@ -19,17 +19,45 @@
     margin-right: 10vw;
     font-size: 1.2rem;
 }
+.menu:hover{
+    cursor: context-menu;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: black;
+}
 .about{
     margin-right: 4vw;
     font-size: 1.2rem;
+}
+.about:hover{
+    cursor: context-menu;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: black;
 }
 .region{
     margin-right: 4vw;
     font-size: 1.2rem;
 }
+.region:hover{
+    cursor: context-menu;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: black;
+}
 .home{
     margin-right: 4vw;
     font-size: 1.2rem;
+}
+.home:hover{
+    cursor: context-menu;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: black;
 }
 .flex{
     display: flex;
